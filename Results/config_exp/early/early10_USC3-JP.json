@@ -1,0 +1,35 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "encodingV4.lp","facts_early10.lp"
+  ],
+  "Call": [
+    {
+
+    }
+  ],
+  "Result": "UNKNOWN",
+  "TIME LIMIT": 1,
+  "Models": {
+    "Number": 0,
+    "More": "yes"
+  },
+  "Bounds": {
+    "Lower": [
+      1
+    ],
+    "Upper": [
+      
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 600.205,
+    "Solve": 597.054,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 23634.794
+  },
+  "Threads": 40,
+  "Winner": 40
+}

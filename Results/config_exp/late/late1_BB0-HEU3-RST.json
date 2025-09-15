@@ -1,0 +1,41 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "encodingV4.lp","facts_late1.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "schedule(1,14,0)", "schedule(3,1,1)", "schedule(1,12,2)", "schedule(1,2,3)", "schedule(2,1,4)", "schedule(1,15,5)", "schedule(6,1,6)", "schedule(1,3,7)", "schedule(12,1,8)", "schedule(9,1,9)", "schedule(1,5,10)", "schedule(1,7,11)", "schedule(14,1,12)", "schedule(1,8,13)", "schedule(7,1,14)", "schedule(1,6,15)", "schedule(1,9,16)", "schedule(10,1,17)", "schedule(15,1,18)", "schedule(13,1,19)", "schedule(1,13,20)", "schedule(1,4,21)", "schedule(0,1,22)", "schedule(1,11,23)", "schedule(1,10,24)", "schedule(5,1,25)", "schedule(1,0,26)", "schedule(11,1,27)", "schedule(8,1,28)", "schedule(4,1,29)", "schedule(7,2,0)", "schedule(2,8,1)", "schedule(2,5,2)", "schedule(9,2,5)", "schedule(2,0,6)", "schedule(2,14,7)", "schedule(5,2,8)", "schedule(10,2,9)", "schedule(8,2,10)", "schedule(2,11,11)", "schedule(13,2,12)", "schedule(2,13,13)", "schedule(6,2,14)", "schedule(2,12,15)", "schedule(15,2,16)", "schedule(2,4,17)", "schedule(11,2,18)", "schedule(14,2,19)", "schedule(2,9,20)", "schedule(2,3,21)", "schedule(4,2,22)", "schedule(12,2,23)", "schedule(2,6,24)", "schedule(0,2,25)", "schedule(2,10,26)", "schedule(3,2,27)", "schedule(2,7,28)", "schedule(2,15,29)", "schedule(6,3,0)", "schedule(3,7,2)", "schedule(7,3,3)", "schedule(3,6,4)", "schedule(8,3,5)", "schedule(3,4,6)", "schedule(3,9,8)", "schedule(3,13,9)", "schedule(12,3,10)", "schedule(3,12,11)", "schedule(9,3,12)", "schedule(5,3,13)", "schedule(3,0,14)", "schedule(0,3,15)", "schedule(4,3,16)", "schedule(3,11,17)", "schedule(3,8,18)", "schedule(10,3,19)", "schedule(3,10,20)", "schedule(13,3,22)", "schedule(3,5,23)", "schedule(3,15,24)", "schedule(15,3,25)", "schedule(14,3,26)", "schedule(3,14,28)", "schedule(11,3,29)", "schedule(5,4,0)", "schedule(4,5,1)", "schedule(14,4,2)", "schedule(4,14,3)", "schedule(4,7,4)", "schedule(10,4,5)", "schedule(4,15,7)", "schedule(4,8,8)", "schedule(15,4,9)", "schedule(4,9,10)", "schedule(4,6,11)", "schedule(7,4,12)", "schedule(4,10,13)", "schedule(4,13,14)", "schedule(11,4,15)", "schedule(13,4,18)", "schedule(4,12,19)", "schedule(6,4,20)", "schedule(9,4,23)", "schedule(0,4,24)", "schedule(4,11,25)", "schedule(8,4,26)", "schedule(4,0,27)", "schedule(12,4,28)", "schedule(5,11,3)", "schedule(15,5,4)", "schedule(5,12,5)", "schedule(5,9,6)", "schedule(10,5,7)", "schedule(6,5,9)", "schedule(5,8,11)", "schedule(12,5,12)", "schedule(8,5,14)", "schedule(5,13,15)", "schedule(14,5,16)", "schedule(5,15,17)", "schedule(5,10,18)", "schedule(0,5,19)", "schedule(5,0,20)", "schedule(9,5,21)", "schedule(11,5,22)", "schedule(5,7,24)", "schedule(13,5,26)", "schedule(7,5,27)", "schedule(5,6,28)", "schedule(5,14,29)", "schedule(7,6,1)", "schedule(6,13,2)", "schedule(10,6,3)", "schedule(6,7,5)", "schedule(11,6,7)", "schedule(13,6,8)", "schedule(6,11,10)", "schedule(0,6,12)", "schedule(6,9,13)", "schedule(6,10,16)", "schedule(6,12,17)", "schedule(9,6,18)", "schedule(8,6,19)", "schedule(6,8,21)", "schedule(15,6,22)", "schedule(6,15,23)", "schedule(6,14,25)", "schedule(12,6,26)", "schedule(14,6,27)", "schedule(6,0,29)", "schedule(7,15,6)", "schedule(9,7,7)", "schedule(7,11,8)", "schedule(7,12,9)", "schedule(14,7,10)", "schedule(11,7,13)", "schedule(8,7,15)", "schedule(0,7,16)", "schedule(7,13,17)", "schedule(7,14,18)", "schedule(15,7,19)", "schedule(12,7,20)", "schedule(7,0,21)", "schedule(10,7,22)", "schedule(7,10,23)", "schedule(13,7,25)", "schedule(7,9,26)", "schedule(7,8,29)", "schedule(8,10,0)", "schedule(8,15,2)", "schedule(15,8,3)", "schedule(0,8,4)", "schedule(8,13,6)", "schedule(13,8,7)", "schedule(8,14,9)", "schedule(11,8,12)", "schedule(12,8,16)", "schedule(14,8,17)", "schedule(8,11,20)", "schedule(8,12,22)", "schedule(8,0,23)", "schedule(9,8,24)", "schedule(8,9,25)", "schedule(10,8,27)", "schedule(9,11,0)", "schedule(9,10,1)", "schedule(0,9,2)", "schedule(12,9,3)", "schedule(9,12,4)", "schedule(9,14,11)", "schedule(15,9,14)", "schedule(9,15,15)", "schedule(9,0,17)", "schedule(11,9,19)", "schedule(14,9,22)", "schedule(9,13,27)", "schedule(13,9,28)", "schedule(10,9,29)", "schedule(11,10,2)", "schedule(13,10,4)", "schedule(12,10,6)", "schedule(14,10,8)", "schedule(15,10,10)", "schedule(10,0,11)", "schedule(10,15,12)", "schedule(10,11,14)", "schedule(10,14,15)", "schedule(10,13,21)", "schedule(10,12,25)", "schedule(0,10,28)", "schedule(0,11,1)", "schedule(11,14,4)", "schedule(11,13,5)", "schedule(14,11,6)", "schedule(11,0,9)", "schedule(13,11,16)", "schedule(12,11,21)", "schedule(11,12,24)", "schedule(11,15,26)", "schedule(15,11,28)", "schedule(12,13,0)", "schedule(12,14,1)", "schedule(0,12,7)", "schedule(12,15,13)", "schedule(14,12,14)", "schedule(12,0,18)", "schedule(15,12,27)", "schedule(13,12,29)", "schedule(15,13,1)", "schedule(13,0,3)", "schedule(0,13,10)", "schedule(13,15,11)", "schedule(13,14,23)", "schedule(14,13,24)", "schedule(14,0,5)", "schedule(0,14,13)", "schedule(14,15,20)", "schedule(15,14,21)", "schedule(15,0,0)", "schedule(0,15,8)"
+          ],
+          "Costs": [
+            3640
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "TIME LIMIT": 1,
+  "Models": {
+    "Number": 1,
+    "More": "yes",
+    "Optimum": "unknown",
+    "Optimal": 0,
+    "Costs": [
+      3640
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 600.184,
+    "Solve": 593.329,
+    "Model": 247.766,
+    "Unsat": 0.000,
+    "CPU": 23555.234
+  },
+  "Threads": 40,
+  "Winner": 40
+}

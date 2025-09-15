@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/CarryoverEffectsOptimization/Instances/CO38.xml</InstanceName>
+    <Contributor>Lambers</Contributor>
+    <Date year="2022"/>
+    <Remarks>Lambers, R. (2022). Fairness and Flexibility in Sport Scheduling. PhD dissertation. Eindhoven University of Technology.
+</Remarks>
+    <Infeasibility>0</Infeasibility>
+    <Objective>1554</Objective>
+  </MetaData>
+</Bound>
