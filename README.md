@@ -1,16 +1,14 @@
-# Sports Timetabling with ASP and Simulated Annealing
+# Sports Timetabling with ASP 
 
-This project provides a comprehensive framework for solving the International Timetabling Competition (ITC) 2021 problem using two primary methods: Answer Set Programming (ASP) and Simulated Annealing (SA).
+This project provides a framework for solving the International Timetabling Competition (ITC) 2021 problem using Answer Set Programming (ASP)
 
 It includes:
 - ASP encodings for the ITC2021 problem.
-- A winning Simulated Annealing solver adapted for the ITC2021 problem.
-- A suite of Python scripts for parsing, analyzing, validating, and processing results from both solvers.
+- Python scripts for parsing, analyzing, validating, and processing results.
 
 ## Project Structure
 
 - **`/Code`**: Contains the core ASP encoding, fact parser and instances
-- **`/simulated_annealing`**: Contains the C++ source code for the SA solver.
 - **`/Results`**: Contains the JSON output from the ASP and SA solver experiments.
 - **`/Validation`**: Contains the RobinX validator for verifying solution correctness.
 - **`/` (root)**: Contains a  Python scripts for processing.
@@ -20,8 +18,6 @@ It includes:
 - **Python 3**: For running the analysis and processing scripts.
 - **pandas**: `pip install pandas`
 - **Clingo**: For the ASP solver. (See [Potassco installation guide](https://potassco.org/doc/INSTALL.html))
-- **C++ Compiler & Make**: For building the SA solver (e.g., `g++`, `make`).
-- **Boost Libraries**: The SA solver requires `libboost` (>= 1.71). On Debian/Ubuntu, you can install it with `sudo apt-get install libboost-all-dev`.
 
 ## How to Run
 
